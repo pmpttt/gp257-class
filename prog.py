@@ -2,13 +2,14 @@
 
 
 
-def printMany(word:str,n:int)
-  """ I print word n times"""
-  for i in n:
+def printMany(word:str,n:int):
+  print(" I print word n times ")
+  for i in range(n):
     print(word)
+  return
 
 
 
 
-if __name __ == "__main__":
+if __name__ == "__main__":
   printMany("Hello world",10)
