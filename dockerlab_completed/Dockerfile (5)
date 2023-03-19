@@ -1,0 +1,2 @@
+FROM jupyter/datascience-notebook:latest
+RUN pip install scikit-learn && pip install tensorflow && pip install pandas
